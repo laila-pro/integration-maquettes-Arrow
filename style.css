@@ -1,0 +1,15 @@
+@font-face { /* Définition d'une nouvelle  */
+    font-family: 'releway-Regular';
+    src: url('../font/releway-regular.otf');
+}
+body{
+  font-family: 'releway-regular', sans-serif;
+  color: black;
+}
+header{
+
+  background-image: url("img/hero-01.jpg");
+}
+#know-more {
+
+  background: transparent;}
