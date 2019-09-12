@@ -31,9 +31,10 @@ header{
     color: rgb(41, 128, 185);
 }
 .items-01{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 3px;
+    margin-bottom: 80px;
 }
 .items-01 img {
   border-radius: 3px;
