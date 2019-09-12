@@ -17,7 +17,7 @@ header{
   background-image: url(img/Sep-bot.png);
   height: 320px;
   width: 100%;
-  margin-top: 79px;
+  margin-top: 4.43em;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,23 +25,34 @@ header{
 }
 #know-more {
 
-  background: transparent;}
+  background: transparent;
+}
   .hr{
-    width: 10%;
+    width: 3em;
     height: 7px;
     background-color: rgb(41, 128, 185);
     align-content: center;
     margin-top: 0.6em;
     margin-bottom: 1.5em;
 }
-#title-our-team{
+.title-and-paragraph{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 5em;
 }
-#title-our-team h3{
+.title-and-paragraph h3{
     color: rgb(41, 128, 185);
+}
+.title-and-paragraph p{
+text-align: center;
+width: 40%;
+}
+.title-and-paragraph-white{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
 }
 .items-01{
     height: 250px;
