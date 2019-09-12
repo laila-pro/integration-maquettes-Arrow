@@ -5,10 +5,22 @@
 body{
   font-family: 'releway-regular', sans-serif;
   color: black;
+  background-color: #fafcfe;
 }
 header{
-
-  background-image: url("img/hero-01.jpg");
+  background-image: url(img/hero-01.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+#overflow-background1{
+  background-image: url(img/Sep-bot.png);
+  height: 320px;
+  width: 100%;
+  margin-top: 79px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #know-more {
 
