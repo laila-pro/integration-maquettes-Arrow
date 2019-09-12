@@ -17,7 +17,7 @@ header{
   background-image: url(img/Sep-bot.png);
   height: 320px;
   width: 100%;
-  margin-top: 4.43em;
+  margin-bottom: -1px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,4 +93,20 @@ width: 40%;
  }
  .nom-prenom-our-team h4{
   color: #2980b9;
+ }
+/* services */
+#position-all-services{
+  padding: 32px 9% 0 11%;
+align-items: center;
+align-content: center;
+text-align: center;
+}
+ @media screen and (max-width: 768px) {
+header{
+  height: 550px;
+}
+.title-and-paragraph p{
+width: 100%;
+}
+
  }
