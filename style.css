@@ -53,8 +53,8 @@ padding-left: 2em;
   .sep-top {
           background-image: url("img/Sep-top.png");
           background-repeat:no-repeat;
-          height: 320px;
-          width: auto;
+          height: 120px;
+          max-width: 100%;
           background-position: center;
           margin-bottom: -1px;
             background-size: cover;
@@ -78,7 +78,7 @@ padding-left: 2em;
 }
 .middle p{
   color: #ffffff;
-  font-size: 1em;
+  font-size: .7em;
   font-weight: bold;
   margin-bottom: 30px;
 }
@@ -136,7 +136,17 @@ opacity: 0.3;
     margin-top: 0.6em;
     margin-bottom: 1.5em;
   }
+  .sep-bot {
+          background-image: url("img/Sep-bot.png");
+          background-repeat:no-repeat;
+          height: 120px;
+          max-width: 100%;
+          background-position: center;
+          margin-bottom: -1px;
+            background-size: cover;
 
+            
+  }
 
   /*--TEAM----*/
   .hr{
