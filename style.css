@@ -198,7 +198,26 @@ text-align: center;
   font-size: 1.5em;
   transition: all 1s;
 }
+/* >>>>>>>>>>>>>>>>>>> OFFICES <<<<<<<<<<<<<<<<<<<< */
+#offices{
+  background-image: url(img/BG2.png);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
 
+/* >>>>>>>>>>>>>>>>>>> cliens <<<<<<<<<<<<<<<<<<<< */
+#cliens{
+  height: 800px;
+}
+
+/* >>>>>>>>>>>>>>>>>>> contact <<<<<<<<<<<<<<<<<<<< */
+#contact{
+  background-image: url(img/BG3.png);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
 
 
 
