@@ -1,36 +1,9 @@
-
-@font-face { /* Définition d'une nouvelle  */
-  font-family: 'releway-Regular';
-  src: url('../font/releway-regular.otf');
+/*  >>>>>>>>>>>>>>>>> reset <<<<<<<<<<<<<<<<<<< CSS */
+*{
+  margin: 0;
+  padding: 0;
 }
-body{
-font-family: 'releway-regular', sans-serif;
-color: black;
-background-color: #fafcfe;
-}
-header{
-background-image: url(img/hero-01.jpg);
-background-size: cover;
-background-position: center;
-height: 800px;
-}
-.Logo-arrow{
-  padding: 20px;
-}
-#overflow-background1{
-background-image: url(img/Sep-bot.png);
-height: 320px;
-width: 100%;
-margin-bottom: -1px;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-filter: drop-shadow(0px -90px 31px #00000070);
-}
-#know-more {
-
-background: transparent;
-}
+/* class redondante */
 .hr{
   width: 3em;
   height: 7px;
@@ -45,6 +18,48 @@ background: transparent;
   align-items: center;
   padding-top: 5em;
 }
+/*  >>>>>>>>>>>>>>>>> font <<<<<<<<<<<<<<<<<<< CSS */
+@font-face { /* Définition d'une nouvelle  */
+  font-family: 'releway-Regular';
+  src: url('../font/releway-regular.otf');
+}
+body{
+font-family: 'releway-regular', sans-serif;
+color: #616161;
+background-color: #fafcfe;
+}
+/*  >>>>>>>>>>>>>>>>> header <<<<<<<<<<<<<<<<<<< CSS */
+header{
+background-image: url(img/hero-01.jpg);
+background-size: cover;
+background-position: center;
+height: 800px;
+}
+.Logo-arrow{
+  padding: 20px;
+}
+
+#know-more {
+background: transparent;
+}
+
+#overflow-background1{
+background-image: url(img/Sep-bot.png);
+height: 320px;
+width: 100%;
+margin-bottom: -1px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+filter: drop-shadow(0px -90px 31px #00000070);
+}
+
+/*  >>>>>>>>>>>>>>>>> SECTION SERVICES <<<<<<<<<<<<<<<<<<< CSS */
+.icones-idea-design-code p{
+    width: 15em;
+}
+
+
 .title-and-paragraph h3{
   color: rgb(41, 128, 185);
 }
