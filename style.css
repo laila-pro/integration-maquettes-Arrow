@@ -166,11 +166,37 @@ text-align: center;
   opacity: 0.4;
   height: 170px;
   width: 310px;
-  background-color: #018cff7a;
+  background-color: #018cffb3;
   transition: all 1s;
 }
 .items-portfolio:hover .overlay-items-portfolio{
   opacity: 1;
+  box-shadow: 0px 0px 15px 10px #ffffff21;
+}
+.items-portfolio:hover .overlay-items-portfolio i{
+  opacity: 1;
+}
+.items-portfolio:hover .overlay-items-portfolio p{
+  opacity: 1;
+}
+.overlay-items-portfolio i{
+  opacity: 0;
+  font-size: 2em;
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  color: #2196f39c;
+  background-color: white;
+  padding: 10px;
+  border: 3px solid white;
+  transition: all 1s;
+}
+.overlay-items-portfolio p{
+  opacity: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: all 1s;
 }
 
 
