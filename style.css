@@ -120,6 +120,12 @@ align-items: center;
 align-content: center;
 text-align: center;
 }
+/*  >>>>>>>>>>>>>>>>> Portfolio <<<<<<<<<<<<<<<<<<< */
+#portfolio{
+  background-image: url(img\BG1.png);
+  height: 800px;
+  width: 100%;
+}
 @media screen and (max-width: 768px) {
 header{
 height: 550px;
