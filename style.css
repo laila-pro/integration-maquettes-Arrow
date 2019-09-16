@@ -216,7 +216,11 @@ text-align: center;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 800px;
+  height: 1000px;
+}
+#offices .container{
+
+margin-top: -100px;
 }
 
 /* >>>>>>>>>>>>>>>>>>> cliens <<<<<<<<<<<<<<<<<<<< */
@@ -243,8 +247,21 @@ text-align: center;
 
 
 /* media querie */
+@media screen and (max-width: 1268px) {
+  .container {
+    max-width: 100% !important;
+}
+.container-portfolio-items{
+  flex-wrap: wrap;
+
+}
+.container-portfolio-items div{
+  flex-direction: column;
+}
+}
 @media screen and (max-width: 768px) {
 /* services */
+
 .title-and-paragraph p{
 width: 100%;
 }
@@ -254,7 +271,11 @@ flex-direction: column;
 .icones-idea-design-code p{
   width: 100%;
 }
-/* our portfolio */
-
+}
+@media screen and (max-width: 720px){
+  .container-portfolio-items{
+    flex-wrap: nowrap;
+    margin-top: 300px !important;
+  }
 
 }
