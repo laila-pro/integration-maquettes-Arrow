@@ -50,17 +50,45 @@ padding-left: 2em;
     max-width: 100%;
     max-height: 100%;
   }
-  .sep-top {
-          background-image: url("img/Sep-top.png");
-          background-repeat:no-repeat;
-          height: 120px;
-          max-width: 100%;
-          background-position: center;
-          margin-bottom: -1px;
-            background-size: cover;
+  /*Up pointing*/
+.triangle-up {
+    width: 100%;
+    height: 0;
+    padding-left:10%;
+    padding-bottom: 10%;
+    overflow: hidden;
+}
+.triangle-up:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left:-500px;
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #4679BD;
+}
+/*Down pointing*/
+.triangle-down {
+    width: 100%;
+    height: 0;
+    padding-left:100%;
+    padding-top: 100%;
+    overflow: hidden;
+}
+.triangle-down:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left:-500px;
+    margin-top:-500px;
 
-            filter: drop-shadow(0px -90px 31px #00000070);
-  }
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+    border-top: 500px solid #4679BD;
+}
+
   .overlay-image {
   position: relative;
   width: 50%;
@@ -71,7 +99,7 @@ padding-left: 2em;
 .overlay-image .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 10%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -139,13 +167,11 @@ opacity: 0.3;
   .sep-bot {
           background-image: url("img/Sep-bot.png");
           background-repeat:no-repeat;
-          height: 120px;
+          height: 100px;
           max-width: 100%;
           background-position: center;
           margin-bottom: -1px;
             background-size: cover;
-
-
   }
 
   /*--TEAM----*/
@@ -205,3 +231,33 @@ opacity: 0.3;
  .nom-prenom-our-team h4{
   color: #2980b9;
  }
+/*---OFFICES----*/
+.hr-offices{
+  width: 10%;
+  height: 7px;
+  background-color: #fafcfe;
+  align-content: center;
+  margin-top: 0.6em;
+  margin-bottom: 1.5em;
+}
+#offices{
+  background-image: url("img/hero-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+
+}
+map{
+  height: 400px;
+}
+.sep-top {
+        background-image: url("img/Sep-top.png");
+        background-repeat:no-repeat;
+        height: 120px;
+        max-width: 100%;
+        background-position: center;
+        margin-bottom: -1px;
+          background-size: cover;
+
+          filter: drop-shadow(0px -90px 31px #00000070);
+}
