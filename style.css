@@ -20,6 +20,9 @@
   margin-top: 0.6em;
   margin-bottom: 1.5em;
 }
+.paragraph-white{
+  color: white;
+}
 .title-white{
   color: white;
 }
@@ -62,7 +65,8 @@ header{
 background-image: url(img/hero-01.jpg);
 background-size: cover;
 background-position: center;
-height: 800px;
+background-attachment: fixed;
+height: 850px;
 }
 .Logo-arrow{
   padding: 20px;
@@ -136,66 +140,7 @@ align-content: center;
 text-align: center;
 }
 /*  >>>>>>>>>>>>>>>>> Portfolio <<<<<<<<<<<<<<<<<<< */
-#portfolio{
-    background-image: url("img/hero-02.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  .overlay-image {
-  position: relative;
-  width: 50%;
-  margin:0px;
-  padding:0px;*
-  background-color: blue;
-  }
 
-.overlay-image .image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-.middle p{
-  color: #ffffff;
-  font-size: .7em;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-.middle {
-  /*background-color: #3e8cc0;*/
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.overlay-image .image{
-  filter: hue-rotate(200deg);
-  -webkit-filter: hue-rotate(200deg);
-}
-.overlay-image:hover .image {
-opacity: 1;
-}
-
-
-
-/*.text {
-
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}*/
 #title-our-portfolio{
     display: flex;
     flex-direction: column;
@@ -207,31 +152,10 @@ opacity: 1;
   padding-bottom: 10px;
 
 }
-
-
-  .hr-portfolio{
-    width: 10%;
-    height: 7px;
-    background-color: #fafcfe;
-    align-content: center;
-    margin-top: 0.6em;
-    margin-bottom: 1.5em;
-  }
-  .sep-bot {
-          background-image: url("img/Sep-bot.png");
-          background-repeat:no-repeat;
-          height: 100px;
-          max-width: 100%;
-          background-position: center;
-          margin-bottom: -1px;
-            background-size: cover;
-  }
-
-
 #portfolio-container{
   background-image: url(img/BG1.png);
       background-size: cover;
-      
+      background-attachment: fixed;
       height: auto;
 }
 
@@ -291,6 +215,7 @@ opacity: 1;
   background-image: url(img/BG2.png);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 800px;
 }
 
@@ -302,6 +227,7 @@ opacity: 1;
 /* >>>>>>>>>>>>>>>>>>> contact <<<<<<<<<<<<<<<<<<<< */
 #contact{
   background-image: url(img/BG3.png);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 800px;
